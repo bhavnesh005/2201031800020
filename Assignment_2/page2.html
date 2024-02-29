@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poetry Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Welcome to the Poetry Website</h1>
+<label for="emotions">Select an emotion:</label>
+<select id="emotions" name="emotions">
+  <option value="happy">Happy</option>
+  <option value="sad">Sad</option>
+  <option value="angry">Angry</option>
+  <option value="excited">Excited</option>
+</select>
+<button onclick="displayPoetry()">Generate Poetry</button>
+<div id="poetry"></div>
+<script src="scripts.js"></script>
+</body>
+</html>
